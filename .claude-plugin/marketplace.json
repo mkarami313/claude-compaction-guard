@@ -1,0 +1,21 @@
+{
+  "name": "claude-compaction-guard",
+  "owner": {
+    "name": "mkarami313"
+  },
+  "metadata": {
+    "description": "Keep goals, user instructions, decisions and next steps across Claude Code context compaction: a NOW.md state file plus PreCompact snapshot and SessionStart re-injection hooks.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "compaction-guard",
+      "description": "Keep goals, user instructions, decisions and next steps across Claude Code context compaction: a NOW.md state file plus PreCompact snapshot and SessionStart re-injection hooks.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/compaction-guard"
+      ]
+    }
+  ]
+}
